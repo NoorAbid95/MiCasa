@@ -1,0 +1,34 @@
+{
+  "name": "mi-casa",
+  "version": "1.0.0",
+  "description": "**Mi Casa** is a full-stack home management app built with the MERN stack (MongoDB, Express, React, Node.js). It helps households organise daily responsibilities like chores, bills, shopping, and internal communication — all in one place.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoorAbid95/mi-casa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/NoorAbid95/mi-casa/issues"
+  },
+  "homepage": "https://github.com/NoorAbid95/mi-casa#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
