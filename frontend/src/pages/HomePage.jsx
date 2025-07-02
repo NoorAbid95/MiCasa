@@ -3,7 +3,7 @@ import homeHeroImage from "../assets/homepage/house_for_homepage_hero.avif";
 
 const HomePage = () => {
   return (
-    <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
       {/* HERO SECTION 1 */}
       <section className="h-screen snap-start flex justify-center items-center px-6">
         <div className="hero-content flex-col lg:flex-row-reverse w-full mx-16">
@@ -45,7 +45,7 @@ const HomePage = () => {
       </section>
 
       {/* HERO SECTION 2 */}
-      <section className="h-screen snap-start flex flex-col justify-center items-center px-6 bg-base-200">
+      <section className="h-screen snap-start flex flex-col justify-center items-center px-6 ">
         <h2 className="text-6xl font-bold mb-16">Homelife Made Easy</h2>
         <div className="carousel carousel-center rounded-box">
           <div className="carousel-item">
