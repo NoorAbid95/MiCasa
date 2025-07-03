@@ -1,5 +1,5 @@
 import React from "react";
-import homeHeroImage from "../assets/homepage/house_for_homepage_hero.avif";
+import homeHeroImage from "../assets/HomePage/house_for_homepage_hero.avif";
 
 const HomePage = () => {
   return (
