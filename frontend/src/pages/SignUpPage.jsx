@@ -59,23 +59,23 @@ const SignUpPage = () => {
         backgroundSize: "100% auto",
       }}
     >
-      <div className="hero bg-base-200/80 w-1/2 p-8 rounded-2xl">
+      <div className="hero  w-1/2 p-8 rounded-2xl">
         <div className="hero-content flex-col lg:flex-row-reverse mx-6">
           {!signupSuccess ? (
             <>
-              <div className="text-center lg:text-left">
+              <div className="text-center lg:text-left ml-15">
                 <h1 className="text-5xl font-bold">Signup!</h1>
-                <p className="py-6">
+                <p className="py-6 text-lg">
                   Create your account to start organising your home life with
                   ease.
                 </p>
               </div>
-              <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <div className="card bg-base-100/80 w-full max-w-sm shrink-0 shadow-2xl text-white ">
                 <div className="card-body">
                   <form onSubmit={handleSubmit}>
                     <fieldset className="fieldset">
                       {/* Full Name */}
-                      <label className="label">Full Name</label>
+                      <label className="label text-sm font-semibold text-gray-100">Full Name</label>
                       <input
                         type="text"
                         className="input"
@@ -91,10 +91,10 @@ const SignUpPage = () => {
                       )}
 
                       {/* Email */}
-                      <label className="label">Email</label>
+                      <label className="label text-sm font-semibold text-gray-100">Email</label>
                       <input
                         type="email"
-                        className="input"
+                        className="input "
                         placeholder="Email"
                         name="email"
                         value={formData.email}
@@ -107,7 +107,7 @@ const SignUpPage = () => {
                       )}
 
                       {/* Password */}
-                      <label className="label">Password</label>
+                      <label className="label text-sm font-semibold text-gray-100">Password</label>
                       <input
                         type="password"
                         className="input"
@@ -142,7 +142,7 @@ const SignUpPage = () => {
               </div>
             </>
           ) : (
-            <div className="text-center text-black h-full flex flex-col items-center justify-center">
+            <div className="text-center text-white h-full flex flex-col items-center justify-center">
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -151,12 +151,12 @@ const SignUpPage = () => {
               >
                 <CheckCircle size={48} />
               </motion.div>
-              <h2 className="text-2xl font-semibold mb-4">
+              <h2 className="text-2xl text-white font-semibold mb-4">
                 Signup successful!
               </h2>
               <Link
                 to="/"
-                className="mt-4 text-sm text-black hover:text-blue-500/90 underline"
+                className="mt-4 text-sm text-white hover:text-blue-500/90 underline"
               >
                 Return Home
               </Link>

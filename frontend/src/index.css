@@ -6,4 +6,6 @@ body {
   overflow-x: hidden;
   overscroll-behavior: none;
   height: 100%;
+  background-color: antiquewhite;
+  color: black
 }
