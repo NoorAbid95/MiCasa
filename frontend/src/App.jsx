@@ -14,7 +14,7 @@ function App() {
     <div className="overflow-x-hidden min-h-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage className=" bg-base-200" />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/shopping-list" element={<ShoppingListPage />} />

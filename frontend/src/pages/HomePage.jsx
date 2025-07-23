@@ -10,7 +10,7 @@ const HomePage = () => {
           <img src={homeHeroImage} className="max-w-sm rounded-lg shadow-2xl" />
           <div className="lg:mr-10">
             <h1 className="text-5xl font-bold">Mi Casa</h1>
-            <h2 className="text-xl text-base-content/70 mt-2 mb-4">
+            <h2 className="text-xl text-black/70 mt-2 mb-4">
               Your all-in-one household management system
             </h2>
             <p className="text-lg py-6">
@@ -80,7 +80,7 @@ const HomePage = () => {
         <h2 className="text-5xl font-bold mb-16">Features</h2>
         <div className="flex flex-col items-center mb-12">
           <div className="w-full max-w-2xl space-y-4 text-xl">
-            <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+            <div className="collapse collapse-arrow bg-amber-950/10 border border-base-300">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title font-semibold">Shopping List</div>
               <div className="collapse-content text-sm">
@@ -88,7 +88,7 @@ const HomePage = () => {
                 anyone can pick up during their next shop.
               </div>
             </div>
-            <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+            <div className="collapse collapse-arrow  bg-amber-950/10 border border-base-300">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title font-semibold">Bill Calendar</div>
               <div className="collapse-content text-sm">
@@ -99,7 +99,7 @@ const HomePage = () => {
                 mind.
               </div>
             </div>
-            <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+            <div className="collapse collapse-arrow  bg-amber-950/10 border border-base-300">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title font-semibold">Chores</div>
               <div className="collapse-content text-sm">
@@ -107,14 +107,14 @@ const HomePage = () => {
                 pulls their weight.
               </div>
             </div>
-            <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+            <div className="collapse collapse-arrow  bg-amber-950/10 border border-base-300">
               <input type="radio" name="my-accordion-2" defaultChecked />
               <div className="collapse-title font-semibold">Messages</div>
               <div className="collapse-content text-sm">
                 Chat with other members of your home.
               </div>
             </div>
-            <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+            <div className="collapse collapse-arrow  bg-amber-950/10 border border-base-300">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title font-semibold">
                 How do I create an account?

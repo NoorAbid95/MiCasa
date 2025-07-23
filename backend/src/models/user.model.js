@@ -16,9 +16,10 @@ const userSchema = new mongoose.Schema({
         required: true, 
         minlength: 6,
     },
-    profilePic: {
-        type: String, 
-        default: ""
+    household: {
+        type: mongoose.Schema.Types.ObjectId, 
+        ref: "Household", 
+        default: null, 
     }
 }, {timestamps: true})
 
